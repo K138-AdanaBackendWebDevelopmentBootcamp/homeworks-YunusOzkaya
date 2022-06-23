@@ -1,1 +1,45 @@
+//COURSE SINIFI
+import java.util.Objects;
 
+public class Course {
+    //Each course has a course name, a course code, and a credit score
+    private String cName;
+    private String cCode;
+    private long cScore;
+
+    public Course(String cName, String cCode, long cScore) {
+        this.cName = cName;
+        this.cCode = cCode;
+        this.cScore = cScore;
+    }
+
+    public String getcCode() {
+        return cCode;
+    }
+
+    public void setcCode(String cCode) {
+        this.cCode = cCode;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Course course = (Course) o;
+        return cCode.equals(course.cCode);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(cCode);
+    }
+
+    @Override
+    public String toString() {
+        return "Course{" +
+                "cName='" + cName + '\'' +
+                ", cCode='" + cCode + '\'' +
+                ", cScore=" + cScore +
+                '}';
+    }
+}
