@@ -1,5 +1,5 @@
 # SCHOOL MANAGEMENT SYSTEM
-This is an example project for Kodluyoruz Backend Developer bootcamp. As you can see on the diagram; Each Course can be tought by only one Instructor but one Instructor can teach multiple classes and students can get zero or more classes. ![](../SMSUML-1.png)
+This is an example project for Kodluyoruz Backend Developer bootcamp. As you can see on the diagram; Each Course can be tought by only one Instructor but one Instructor can teach multiple classes and students can get zero or more classes. ![](SchoolManagement(with Hibernate)/src/SMSUML-1.png)
 This was a demo project for understanding the principles of OOP with Hibernate and JPA.
 
 ### Used Technologies and Tools
