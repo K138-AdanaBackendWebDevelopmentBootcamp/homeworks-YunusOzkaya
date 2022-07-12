@@ -1,0 +1,2 @@
+# SCHOOL MANAGEMENT SYSTEM
+This is an example project for Kodluyoruz Backend Developer bootcamp. As you can see on the diagram; Each Course can be tought by only one Instructor but one Instructor can teach multiple classes. 
